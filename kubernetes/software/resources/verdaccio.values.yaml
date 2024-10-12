@@ -1,0 +1,86 @@
+image:
+  repository: localhost:5000/docker.io/verdaccio/verdaccio
+  tag: 5.2.0
+  pullPolicy: IfNotPresent
+  pullSecrets: [ ]
+service:
+  prot: 4873
+  type: ClusterIP
+replicaCount: 1
+resources:
+  requests:
+    cpu: 100m
+    memory: 512Mi
+  limits:
+    cpu: 1000m
+    memory: 1024Mi
+ingress:
+  enabled: true
+  className: "nginx"
+  paths:
+    - /
+  hosts:
+    - verdaccio.local
+  annotations:
+    cert-manager.io/cluster-issuer: self-signed-cluster-issuer
+  tls:
+    - secretName: verdaccio.local-tls
+      hosts:
+        - verdaccio.local
+serviceAccount:
+  create: false
+configMap: |
+  storage: /verdaccio/storage/data
+  web:
+    enable: true
+    title: Verdaccio
+  auth:
+    htpasswd:
+      file: /verdaccio/storage/htpasswd
+      max_users: -1
+  uplinks:
+    npm-taobao:
+      url: https://registry.npmmirror.com/
+      agent_options:
+        keepAlive: true
+        maxSockets: 40
+        maxFreeSockets: 10
+    npmjs:
+      url: https://registry.npmjs.org/
+      agent_options:
+        keepAlive: true
+        maxSockets: 40
+        maxFreeSockets: 10
+  packages:
+    '@*/*':
+      access: $all
+      publish: $authenticated
+      proxy: npmjs
+
+    '**':
+      access: $all
+      publish: $authenticated
+      proxy: npm-taobao
+  middlewares:
+    audit:
+      enabled: true
+  logs: {type: stdout, format: pretty, level: info}
+persistence:
+  enabled: true
+  storageClass: standard
+  accessMode: ReadWriteOnce
+  size: 8Gi
+  volumes:
+    - name: htpasswd
+      secret:
+        secretName: verdaccio-admin-secret
+        items:
+          - key: htpasswd
+            path: htpasswd
+  mounts:
+    - mountPath: /verdaccio/admin.htpasswd
+      name: htpasswd
+      subPath: htpasswd
+      readOnly: true
+priorityClass:
+   enabled: false
