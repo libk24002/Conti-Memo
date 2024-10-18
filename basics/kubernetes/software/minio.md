@@ -11,9 +11,9 @@
 * test minio
 * 
 ## precondition
-* [create.local.cluster.with.kind](/kubernetes/create.local.cluster.with.kind.md)
-* [installed ingress-nginx](/kubernetes/basic%20components/ingress.nginx.md)
-* [installed cert-manager](/kubernetes/basic%20components/cert.manager.md)
+* [create.local.cluster.with.kind](/basics/kubernetes/create.local.cluster.with.kind.md)
+* [installed ingress-nginx](/basics/kubernetes/basic%20components/ingress.nginx.md)
+* [installed cert-manager](/basics/kubernetes/basic%20components/cert.manager.md)
 
 ## do it
 1. prepare images

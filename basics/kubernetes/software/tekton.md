@@ -12,7 +12,7 @@
 * none
 
 ## pre-requirements
-* [create.local.cluster.with.kind](/kubernetes/create.local.cluster.with.kind.md)
+* [create.local.cluster.with.kind](/basics/kubernetes/create.local.cluster.with.kind.md)
 * [ingress-nginx](../basic%20components/ingress.nginx.md)
 * [cert-manager](../basic%20components/cert.manager.md)
 * [docker-registry](../basic%20components/docker.registry.md)

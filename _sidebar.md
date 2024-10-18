@@ -1,9 +1,17 @@
-* [Linux](linux/README.md)
-* [Database](database/README.md)
-* [Docker](docker/README.md)
-* [Kubernetes](kubernetes/README.md)
-* [Commands](commands/README.md)
-* [Java](developer/java/README.md)
-* [Python](developer/python/README.md)
-* [Golang](developer/golang/README.md)
-* [F2E](developer/F2E/README.md)
+* Basics
+    + [Linux](/basics/linux/README.md)
+    + [Database](/basics/database/README.md)
+    + [Docker](/basics/docker/README.md)
+    + [Kubernetes](/basics/kubernetes/README.md)
+
+* Developer
+    + [Python](/developer/python/README.md)
+    + [Java](/developer/java/README.md)
+    + [Golang](/developer/golang/README.md)
+    + [F2E](/developer/F2E/README.md)
+
+* Manual
+    + [Kafka](/manual/README.md)
+
+* Gallery
+    + [Commands](/commands/README.md)

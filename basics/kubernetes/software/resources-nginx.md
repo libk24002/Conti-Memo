@@ -11,8 +11,8 @@
 
 ### precondition
 * [create.local.cluster.with.kind](/basics/kubernetesernetes/kind-cluster.md)
-* [installed ingress-nginx](/kubernetes/basic%20components/ingress.nginx.md)
-* [installed cert-manager](/kubernetes/basic%20components/cert.manager.md)
+* [installed ingress-nginx](/basics/kubernetes/basic%20components/ingress.nginx.md)
+* [installed cert-manager](/basics/kubernetes/basic%20components/cert.manager.md)
 
 ## do it
 1. prepare images

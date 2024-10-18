@@ -14,7 +14,7 @@
 * install gitea
 
 ## pre-requirements
-* [init_kind_cluster](/kubernetes/local_kind_cluster/README.md)
+* [init_kind_cluster](/basics/kubernetes/local_kind_cluster/README.md)
 * basic-components
   * [ingress](../basic%20components/ingress.nginx.md)
   * [cert-manager](../basic%20components/cert.manager.md)

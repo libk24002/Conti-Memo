@@ -3,7 +3,7 @@
 ## main usage
 * 本文借鉴文章 => [k8s系列08-负载均衡器之PureLB ](https://tinychen.com/20220524-k8s-08-loadbalancer-purelb)
 * 本文主要在k8s原生集群上部署`0.6.4`版本的`PureLB`作为k8s集群的`LoadBalancer` 主要涉及PureLB的Layer2模式和ECMP模式两种部署方案.
-* 本文使用的k8s集群`centos steam 8`上基于`docker`和`kind`部署的`v1.23.3`版本. => [create.local.cluster.with.kind](/kubernetes/create.local.cluster.with.kind.md)
+* 本文使用的k8s集群`centos steam 8`上基于`docker`和`kind`部署的`v1.23.3`版本. => [create.local.cluster.with.kind](/basics/kubernetes/create.local.cluster.with.kind.md)
 * A LoadBalancer is a Service type that allows configuration of network components external to Kubernetes to enable network access to the specified application resources.
 
 ## conceptions
