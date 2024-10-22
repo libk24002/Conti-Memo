@@ -15,13 +15,13 @@
     + ```shell
       docker container prune
       ```
-### docker IPAddress 
+### docker IPAddress
 * ```shell
   docker inspect -f '{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -aq)
   ``` 
 
 ### Add images
-* 
+*
 * ```shell
   for IMAGE in "docker.io/jupyterhub/k8s-hub:1.2.0" \
       "docker.io/jupyterhub/configurable-http-proxy:4.5.0"
@@ -69,7 +69,7 @@
           && dokcer rm ${DOCKER_TARGET_IMAGE}
   done
   ```
-  
+
 ## docker-registry
 * ```shell
   REGISTRY_NAME="docker-registry"
@@ -84,7 +84,7 @@
   fi
   ```
 * docker-registry API
-  * ```shell
+    * ```shell
     GET /v2/_catalog # 列出所有存储库
     GET /V2/image/tags/list  # 列出所有image所有tag
     ?n=<inter> # 指定个数

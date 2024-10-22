@@ -13,6 +13,8 @@
 * [F2E](developer/F2E/README.md)
 
 ## Manual
+* [Nfs](basics/docker/case/nfs/README.md)
+* [Nginx](basics/docker/case/nginx/README.md)
 * [Kafka](manual/README.md)
 
 ## Gallery

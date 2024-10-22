@@ -17,7 +17,7 @@
   RUN sed -i -E 's/(deb|security).debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list \
       && apt update && apt install -y vim curl 
   ```
-  
+
 ### alpine
 * ```dockerfile
   FROM alpine:3.15.0

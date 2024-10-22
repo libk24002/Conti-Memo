@@ -1,6 +1,6 @@
-# nginx
+## nginx
 
-## isntallation
+### Isntallation
 1. prepare [default.conf](resources/default.conf.md)
 2. run `nginx`
     * ```shell
