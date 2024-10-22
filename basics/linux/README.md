@@ -1,25 +1,26 @@
 # Linux
-
-## install
-* [install centos 7 ](install.centos.7.md)
-
-## basic
-* [install centos 8 by boot image](install.centos.8.by.boot.image.md)
-* [logical volume manager](logical.volume.manager.md)
-* [loop back devices with lvm](loop.back.devices.with.lvm.md)
-* [Load balance](load_balance.md)
-* [qemu](qemu/README.md)
-* [kerberos](kerberos.md)
-
-## network
-* [network-basic](network/basic.md)
-
-## other
 * [commands](commands.md)
-* [basic mirrors](mirrors/README.md)
-* [zjvis-node](other/zjvis-node.md)
 
-## manual
-* [jasypt 密码编译](manual/jasypt.md)
-* [reposync repo源同步](manual/reposync.md)
-* [minio 备份](manual/minio.md)
+## System installation
+* Centos
+  + TODO: [Centos7](install/centos/7/README.md)
+  + [Centos8](install/centos/8/README.md)
+* Fedora
+  + TODO: [Fedora39](install/fedora/39/README.md)
+* Ubuntu
+  + TODO: [Ubuntu20.04](install/ubuntu/20.04/README.md)
+  + TODO: [Ubuntu22.04](install/ubuntu/22.04/README.md)
+
+## Basic knowledge
+* Storage
+  + [LVM](basic/lvm/README.md)
+* Network
+  + [LoadBalance](basic/load_balance.md)
+  + [Network](network/README.md)
+* TODO: [Qemu](qemu/README.md)
+* TODO: [Kerberos](basic/kerberos.md)
+
+## Other
+* [Mirrors](mirrors/README.md)
+* [zjvis-node](other/zjvis-node.md)
+* [linux-memo](other/linux-memo.md)

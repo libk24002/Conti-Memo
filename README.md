@@ -6,7 +6,6 @@
 * [Docker](basics/docker/README.md)
 * [Kubernetes](basics/kubernetes/README.md)
 
-
 ## Developer
 * [Python](developer/python/README.md)
 * [Java](developer/java/README.md)

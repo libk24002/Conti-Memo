@@ -40,55 +40,13 @@
       ifup eno1 eno2 
       ```
 
-### disk plan
-1. create LV `docker`
-    * ```shell
-      echo "/dev/mapper/centos-docker /var/lib/docker xfs defaults 0 0" >> /etc/fstab
-      lvcreate -L 500G -n docker centos
-      mkfs.xfs /dev/mapper/centos-docker
-      mkdir /var/lib/docker && chmod 755 /var/lib/docker && mount -a
-      ```
-2. create LV `data`
-    * ```shell
-      echo "/dev/mapper/centos-data /data xfs defaults 0 0" >> /etc/fstab
-      lvcreate -L 2.7T -n data centos
-      mkfs.xfs /dev/mapper/centos-data
-      mkdir /data && mount -a
-      ```
-3. mount `nasdisk`
-    * ```shell
-      echo "oss-std-lc128.alkaidos.cn:/csst/csst /nasdisk nfs vers=3,nolock 0 0" >> /etc/fstab
-      mkdir /nasdisk && mount -a
-      ```
-
-### installation
-1. configure repositories
-    * ```shell
-      rm -rf /etc/yum.repos.d/*
-      ```
-    * copy [all.in.one.7.repo](resources/all.in.one.7.repo.md) as file `/etc/yum.repos.d/all.in.one.7.repo`
-2. configure ntp
-    * ```shell
-      yum install -y chrony && systemctl enable chronyd && systemctl start chronyd \
-         && chronyc sources && chronyc tracking \
-         && timedatectl set-timezone 'Asia/Shanghai'
-      ```
-3. install basic module
+## install basic
+1. install basic module
     * ```shell
       yum install -y vim net-tools device-mapper-persistent-data lvm2 docker-ce python3 iproute-tc \
           && systemctl start docker && systemctl enable docker
       ```
-4. stop and disable firewalld
+2. stop and disable firewalld
     * ```shell
       systemctl stop firewalld && systemctl disable firewalld
       ```
-
-
-
-
-
-
-
-
-
-

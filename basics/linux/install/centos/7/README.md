@@ -1,4 +1,4 @@
-## install centos 7 
+## install centos 7
 
 ### purpose
 * install centos 7
