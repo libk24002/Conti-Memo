@@ -1,4 +1,4 @@
-# java-commands
+## java commands
 
 ### show gc info
 * ```shell

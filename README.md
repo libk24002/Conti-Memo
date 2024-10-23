@@ -7,16 +7,16 @@
 * [Kubernetes](basics/kubernetes/README.md)
 
 ## Developer
-* TODO: [Python](developer/python/README.md)
-* TODO: [Java](developer/java/README.md)
-* TODO: [Golang](developer/golang/README.md)
-* TODO: [F2E](developer/F2E/README.md)
+* [Python](developer/python/README.md)
+* [Java](developer/java/README.md)
+* [Golang](developer/golang/README.md)
+* [F2E](developer/F2E/README.md)
 
 ## Manual
-* TODO: [Kafka](manual/README.md)
+* [Kafka](manual/kafka/README.md)
 
 ## Gallery
-* TODO: [Commands](commands/README.md)
+* [Commands](commands/README.md)
 * [Renovation](gallery/renovation/README.md)
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>

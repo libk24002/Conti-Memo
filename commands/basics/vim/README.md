@@ -1,15 +1,15 @@
-# VIM
+## VIM
 
-## 文件命令
-* ```shell
+### 文件命令
+* ```text
   :open file 
   :split file
   :bn
   :bp
   ```
 
-## 快捷键
-* ```shell
+### 快捷键
+* ```text
   I   行首插入
   A   行尾插入
   o   下一行行首插入
@@ -25,20 +25,16 @@
   :set wrapscan     重新搜索，在搜索到文件头或尾时，返回继续搜索，默认开启
   ```
 
-## 替换命令
-* ```shell
+### 替换命令
+* ```text
   :s/old/new/
   :s/old/new/g
   :%s/old/new/
   :%s/old/new/g
   :10,20 s/^/ /g   在第10行知第20行每行前面加四个空格，用于缩进
   ```
-## 列模式
-* ```shell
-  
-```
-### json format
 
-```text
-%!python -m json.tool
-```
+### Json format
+* ```text
+  %!python -m json.tool
+  ```

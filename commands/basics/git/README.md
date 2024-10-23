@@ -1,6 +1,6 @@
-# Git
+## Git
 
-## git config
+### Git config
 * ```shell
   git config --global user.name "ben.wangz"                 # 设置名字
   git config --global user.email ben.wangz@foxmail.com      # email
@@ -9,18 +9,18 @@
   git --no-pager diff                     
   ```
 
-## commit
+### Commit
 * ```shell
   # HEAD~1 撤销一次  HEAD~2  撤销两次
   git reset --soft HEAD^ # 撤销上次的commit
   ```
 
-## 同步远程和本地remote
+### 同步远程和本地remote
 * ```shell
   git remote prune origin
   ```
 
-## get specific file from remote
+### Get specific file from remote
 * from remote: git@github.com:ben-wangz/blog.git
 * from branch: master
 * from path: docs/commands

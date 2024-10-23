@@ -1,5 +1,5 @@
 # Docker
-* [commands](/commands/docker/commands.md)
+* [commands](/commands/docker/README.md)
 
 ## Deploy
 * [installation](installation.md)
