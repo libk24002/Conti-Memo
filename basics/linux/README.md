@@ -1,7 +1,7 @@
 # Linux
-* [commands](commands.md)
+* [commands](/commands/linux/README.md)
 
-## System installation
+## Installation
 * Centos
   + TODO: [Centos7](install/centos/7/README.md)
   + [Centos8](install/centos/8/README.md)
@@ -11,7 +11,7 @@
   + TODO: [Ubuntu20.04](install/ubuntu/20.04/README.md)
   + TODO: [Ubuntu22.04](install/ubuntu/22.04/README.md)
 
-## Basic knowledge
+## Knowledge
 * Storage
   + [LVM](basic/lvm/README.md)
 * Network
