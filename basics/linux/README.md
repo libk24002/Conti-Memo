@@ -6,7 +6,7 @@
   + TODO: [Centos7](install/centos/7/README.md)
   + [Centos8](install/centos/8/README.md)
 * Fedora
-  + TODO: [Fedora39](install/fedora/39/README.md)
+  + [Fedora39](install/fedora/39/README.md)
 * Ubuntu
   + TODO: [Ubuntu20.04](install/ubuntu/20.04/README.md)
   + TODO: [Ubuntu22.04](install/ubuntu/22.04/README.md)
