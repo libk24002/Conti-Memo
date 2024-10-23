@@ -11,7 +11,7 @@
     + [F2E](/developer/F2E/README.md)
 
 * Manual
-    + [Kafka](/manual/README.md)
+    + [kafka](/manual/kafka/README.md)
 
 * Gallery
     + [Commands](/commands/README.md)
