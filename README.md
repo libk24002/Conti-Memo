@@ -7,19 +7,16 @@
 * [Kubernetes](basics/kubernetes/README.md)
 
 ## Developer
-* [Python](developer/python/README.md)
-* [Java](developer/java/README.md)
-* [Golang](developer/golang/README.md)
-* [F2E](developer/F2E/README.md)
+* TODO: [Python](developer/python/README.md)
+* TODO: [Java](developer/java/README.md)
+* TODO: [Golang](developer/golang/README.md)
+* TODO: [F2E](developer/F2E/README.md)
 
 ## Manual
-* [Nfs](basics/docker/case/nfs/README.md)
-* [Nginx](basics/docker/case/nginx/README.md)
-* [Kafka](manual/README.md)
+* TODO: [Kafka](manual/README.md)
 
 ## Gallery
-* [Commands](commands/README.md)
-* [11408](gallery/11408/README.md)
+* TODO: [Commands](commands/README.md)
 * [Renovation](gallery/renovation/README.md)
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
