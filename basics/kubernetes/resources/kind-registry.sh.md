@@ -1,1 +1,0 @@
-[kind-registry.sh](kind-registry.sh ':include')

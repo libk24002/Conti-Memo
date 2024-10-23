@@ -1,1 +1,0 @@
-[nebula-docs.values.yaml](nebula-docs.values.yaml ':include')
