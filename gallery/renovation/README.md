@@ -1,6 +1,7 @@
 ## renovation
 * [装修设计常用尺寸清单](Decoration_Size_List.md)
 * [全屋定制内容](Painter.md)
+* [家具家电采买](Decoration_Procurement.md)
 
 ### 三方沟通
 * 小区物业
