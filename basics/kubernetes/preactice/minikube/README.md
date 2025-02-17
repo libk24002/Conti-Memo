@@ -14,7 +14,7 @@ All you need is Docker (or similarly compatible) container or a Virtual Machine 
 1. Prepare minikube binary
     * ```shell
       MIRROR="files.m.daocloud.io/"
-      curl -LO "https://${MIRROR}storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64"
+      curl -LO "https://${MIRROR}storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64" \
           && mkdir -p ${HOME}/bin \
           && mv minikube-linux-amd64 ${HOME}/bin/minikube \
           && chmod u+x ${HOME}/bin/minikube
@@ -37,3 +37,5 @@ All you need is Docker (or similarly compatible) container or a Virtual Machine 
     * ```shell
       minikube delete
       ```
+
+

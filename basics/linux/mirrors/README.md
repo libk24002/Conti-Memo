@@ -11,6 +11,10 @@
     + [Aliyun mirror](resources/aliyun_centos_8.repo.md)
     + [tuna mirror](resources/tuna_centos_8.repo.md)
 
+### fedora mirrors
+* fedora 39 
+  + [Aliyun mirror](resources/aliyun_fedora_39.repo.md)
+
 ### ubuntu
 * ubuntu 18.04 `/etc/apt/sources.list`
     + [Ubuntu mirror](resources/Ubuntu_ubuntu_18.04.repo.md)
