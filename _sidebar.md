@@ -1,8 +1,8 @@
 * Basics
-    + [Linux](/basics/linux/README.md)
+    + [Linux](/basic-theories/linux/README.md)
     + [Database](/basics/database/README.md)
-    + [Docker](/basics/docker/README.md)
-    + [Kubernetes](/basics/kubernetes/README.md)
+    + [Docker](/basic-theories/docker/README.md)
+    + [Kubernetes](/cloud-native/kubernetes/README.md)
 
 * Developer
     + [Python](/developer/python/README.md)
@@ -14,4 +14,4 @@
     + [kafka](/manual/kafka/README.md)
 
 * Gallery
-    + [Commands](/commands/README.md)
+    + [Commands](/basic-theories/commands/README.md)

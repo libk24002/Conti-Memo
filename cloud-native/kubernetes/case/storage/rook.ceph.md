@@ -19,7 +19,7 @@
     + kubectl
     + helm
 * [local static provisioner](local.static.provisioner.md) have been read and practised
-* we recommend to use [qemu machine](../../../linux/qemu/README.md) because we will modify the devices: /dev/loopX
+* we recommend to use [qemu machine](../../../../basic-theories/linux/qemu/README.md) because we will modify the devices: /dev/loopX
 
 ### purpose
 
@@ -31,7 +31,7 @@
 
 ### do it
 
-1. optional, [create centos 8 with qemu](../../../linux/qemu/create.centos.8.with.qemu.md)
+1. optional, [create centos 8 with qemu](../../../../basic-theories/linux/qemu/create.centos.8.with.qemu.md)
     * ```shell
       qemu-system-x86_64 \
           -accel kvm \
@@ -49,7 +49,7 @@
         + ```shell
           ssh -o "UserKnownHostsFile /dev/null" -p 1022 root@localhost
           ```
-    * [install docker engine](../../../docker/installation.md)
+    * [install docker engine](../../../../basic-theories/docker/installation.md)
 2. prepare LVs for data sets
     * NOTE: cannot create LVs in docker container
     * ```shell

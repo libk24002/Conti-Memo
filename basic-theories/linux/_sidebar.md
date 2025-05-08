@@ -1,4 +1,4 @@
-* [commands](/commands/linux/README.md)
+* [commands](/basic-theories/commands/linux/README.md)
 * Storage
     + [LVM](basic/lvm/README.md)
 * Network

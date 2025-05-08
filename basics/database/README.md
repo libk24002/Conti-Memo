@@ -18,7 +18,7 @@
   + [ClickHouse](clickhouse/README.md)
 
 ## commands
-* [SQL](/commands/sql/README.md)
+* [SQL](/basic-theories/commands/sql/README.md)
 * [mysql](mysql/commands.md)
 * [redis](redis/commands.md)
 * [postgresql](postgresql/commands.md)

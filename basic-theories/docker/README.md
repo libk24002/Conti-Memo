@@ -1,15 +1,15 @@
-# Docker
-* [commands](/commands/docker/README.md)
+## Docker
+* [commands](/basic-theories/commands/docker/README.md)
 
-## Deploy
+### Deploy
 * [installation](installation.md)
 * [multi-architecture](multi-architecture.md)
 
-## Case App
+### Case App
 * [nfs](case/nfs/README.md)
 * TODO: [nginx](case/nginx/README.md)
 * TODO: [haproxy](case/haproxy/README.md)
 
-## Dockerfile
+### Dockerfile
 * [grammar](dockerfile/README.md)
 * [image init](dockerfile/image-init.md)

@@ -1,7 +1,7 @@
-# Linux
-* [commands](/commands/linux/README.md)
+## Linux
+* [commands](/basic-theories/commands/linux/README.md)
 
-## Installation
+### Installation
 * Centos
   + [Centos 7](install/centos/7/README.md)
 * Fedora
@@ -10,7 +10,7 @@
   + [Ubuntu20.04](install/ubuntu/20.04/README.md)
   + [Ubuntu22.04](install/ubuntu/22.04/README.md)
 
-## Knowledge
+### Knowledge
 * Storage
   + [LVM](basic/lvm/README.md)
 * Network
@@ -19,7 +19,7 @@
 * TODO: [Qemu](qemu/README.md)
 * TODO: [Kerberos](basic/kerberos.md)
 
-## Other
+### Other
 * [Mirrors](mirrors/README.md)
 * [zjvis-node](other/zjvis-node.md)
 * [linux-memo](other/linux-memo.md)

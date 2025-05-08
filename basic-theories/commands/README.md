@@ -1,6 +1,6 @@
-# Commands
+## Commands
 
-## Basics
+### Basics
 * [Linux](linux/README.md)
 * [Git](basics/git/README.md)
 * [Vim](basics/vim/README.md)
@@ -8,7 +8,7 @@
 * [Docker](docker/README.md)
 * [Kubernetes](kubernetes/README.md)
 
-## other
+### other
 * [zjvis-commands](other/zjvis/README.md)
 
   

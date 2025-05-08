@@ -1,5 +1,5 @@
 # Kubernetes
-* [commands](/commands/kubernetes/README.md)
+* [commands](/basic-theories/commands/kubernetes/README.md)
 
 ## Knowledge
 * TODO: [CNI](knowledge/k8s-CNI.md)
