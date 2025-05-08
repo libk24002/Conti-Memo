@@ -1,6 +1,6 @@
 <p style="text-align: center; font-size: xx-large; font-weight: bolder;">Welcome to Conti-Memo</p>
 
-## 基础知识
+### 基础知识
 * [Linux](basic-theories/linux/README.md)
 * [Git](basic-theories/git/README.md)
 * [Docker](basic-theories/docker/README.md)
@@ -12,10 +12,13 @@
 * [计算机网络](basic-theories/computer-networks/README.md)
 * [常用命令](basic-theories/commands/README.md)
 
-## Cloud native
+### 云原生
 * [Golang](cloud-native/golang/README.md)
 * [DevOps](cloud-native/devops/README.md)
 * [Kubernetes](cloud-native/kubernetes/README.md)
+
+### 项目链接
+* [stick](https://github.com/libk24002/stick.git)
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
