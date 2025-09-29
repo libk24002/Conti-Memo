@@ -1,7 +1,7 @@
 * Basics
-    + [Linux](/basic-theories/linux/README.md)
+    + [Linux](/essential/linux/README.md)
     + [Database](/basics/database/README.md)
-    + [Docker](/basic-theories/docker/README.md)
+    + [Docker](/essential/docker/README.md)
     + [Kubernetes](/cloud-native/kubernetes/README.md)
 
 * Developer
@@ -14,4 +14,4 @@
     + [kafka](/manual/kafka/README.md)
 
 * Gallery
-    + [Commands](/basic-theories/commands/README.md)
+    + [Commands](/essential/commands/README.md)

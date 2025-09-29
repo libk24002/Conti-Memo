@@ -1,4 +1,4 @@
-# k8s installation
+_# k8s installation
 
 ## install basic
 1. 3 node with `centos7`
@@ -263,4 +263,4 @@
       helm -n test uninstall test-mariadb \
           && kubectl -n test delete pvc data-test-mariadb-0 \
           && kubectl delete namespace test
-      ```
+      ```_
