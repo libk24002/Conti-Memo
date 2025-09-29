@@ -1,4 +1,4 @@
-<p style="text-align: center; font-size: xx-large; font-weight: bolder;">Welcome to Conti-Memo</p>
+<p style="text-align: center; font-size: xxx-large; font-weight: bolder;">Welcome to Conti-Memo</p>
 
 ## Basic Tools
 * [Linux](essential/linux/README.md)
